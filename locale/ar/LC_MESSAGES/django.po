@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#: .\ppage\views.py:21
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-03 18:57+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: .\ppage\views.py:20
+msgid "Welcome"
+msgstr "مرحبا"
+
+#: .\templates\home.html:37
+msgid "Who Am I ?"
+msgstr "من أنا"
+
+#: .\templates\home.html:38
+msgid "About Me"
+msgstr "معلومات عني"
+
+#: .\templates\home.html:40
+msgid ""
+"i am Hafid Amrouche a 25 years old automation engineer with more than 7 "
+"years experience in web developement, durring that period i build over 20 "
+"personal websites and 4 platforms."
+msgstr ""
+"أنا حفيط عمروش مهندس في الأليات و عمري 25 سنة، لدي خبرة 7 سنوات في مجال مجال تصميم المواقع "
+"في هذه الفترة صممت 20 موقعا شخصا و 4 منصات ."
+
+
+#: .\templates\home.html:49 .\templates\home.html:118
+msgid "Call Us"
+msgstr "اتصل بنا"
+
+#: .\templates\home.html:50 .\templates\home.html:119
+msgid "Message Us"
+msgstr "راسلنا"
+
+#: .\templates\home.html:58
+msgid "How Much I Charge ?"
+msgstr "كم أتقاضى؟"
+
+#: .\templates\home.html:59
+msgid "My Pricing"
+msgstr "الأسعار"
+
+#: .\templates\home.html:67
+msgid "Personal website"
+msgstr "موقع شخصي"
+
+#: .\templates\home.html:69
+msgid "Website like this where it's all about one person"
+msgstr "مواقع مثل هذا الموقع"
+
+#: .\templates\home.html:73 .\templates\home.html:80 .\templates\home.html:92
+#: .\templates\home.html:99 .\templates\home.html:111
+msgid "DA"
+msgstr "دج"
+
+#: .\templates\home.html:81
+msgid "3000/Month"
+msgstr "3000/شهر"
+
+#: .\templates\home.html:89
+msgid "Company or institution website"
+msgstr "موقع لشركة أو مؤسسة"
+
+#: .\templates\home.html:100
+msgid "4000/Month"
+msgstr "4000/شهر"
+
+#: .\templates\home.html:108
+msgid "Platforms and customized websites"
+msgstr " منصة أو موقع معدل"
+
+#: .\templates\home.html:112
+msgid "8000/ Day of work"
+msgstr "8000 على كل يوم عمل"
+
+#: .\templates\home.html:128
+msgid "Contact Us"
+msgstr "تواصل معنا"
+
+#: .\templates\home.html:137
+msgid "Enter Email or Phone number"
+msgstr "أدخل الايمايل أو رقم الهاتف"
+
+#: .\templates\home.html:140
+msgid "Write Something"
+msgstr "أكتب هنا"
+
+#: .\templates\home.html:143 .\templates\home.html:180
+#: .\templates\home.html:187
+msgid "Send Message"
+msgstr "أرسل"
+
+#: .\templates\home.html:182
+msgid "Message was sent successfully"
+msgstr "تم الارسال بنجاح"
+
+#: .\templates\home.html:189
+msgid "Message was not sent"
+msgstr "لم يتم الارسال"

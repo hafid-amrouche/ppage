@@ -1,0 +1,208 @@
+{% load static %}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="{{ request.LANGUAGE_CODE }}">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>{{ title }}</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="{% static 'vendors/themify-icons/css/themify-icons.css' %}">
+    <!-- Bootstrap + Meyawo main styles -->
+	<link rel="stylesheet" href="{% static '/css/meyawo.css' %}">
+    {% if request.LANGUAGE_CODE == "ar" %}
+    <style>
+        *{
+            direction: rtl;
+        }
+    </style>
+    {% endif %}
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container" style="justify-content: space-between;">
+            <a class="logo" href=""><img width="130px" src="{% static 'imgs/logo.png' %}" alt=""></a>         
+            <form action="" style="font-family: cairo;">
+                <select name="language" style=" font-size: 1.2rem;" onchange="window.location.href=this.value" class="form-control" id="">
+                    <option value="/ar/" {% if request.LANGUAGE_CODE == "ar" %}selected{% endif %}>العربية</option>
+                    <option value="/fr/" {% if request.LANGUAGE_CODE == "fr" %}selected{% endif %}>Francais</option>
+                    <option value="/en/" {% if request.LANGUAGE_CODE == "en" %}selected{% endif %}>English</option>
+                </select> 
+            </form>
+        </div>          
+    </nav><!-- End of Page Navbar -->
+
+    <!-- page header -->
+  
+
+    <!-- about section -->
+    <section class="section pt-0" style="margin-top:120px ;" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-caption">
+                    <h2 class="section-title mb-3 text-center">{% trans 'About Me' %}</h2>
+                    <p style="font-size: 1.5rem; margin: 10px;" class="p-2 p-md-4 text-center">
+                        {% trans "i am Hafid Amrouche a 25 years old automation engineer with more than 7 years experience in web developement, durring that period i build over 20 personal websites and 4 platforms." %}
+                    </p>
+                </div>  
+                <div class="about-img-holder">
+                    <img style="border-radius: 10px;" src="{% static 'imgs/me.jpeg' %}" class="about-img" >
+                </div>            
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+        <div class="container mt-4 text-center">
+            <button class="btn-rounded btn btn-outline-primary mt-4" style="width: 200px;" onclick="window.location.href='tel:0541388946'"><img width="30" src="{% static 'imgs/call.png' %}" class="mr-2"><span class="pr-2">{% trans "Call Us" %}</span></button>
+            <button class="btn-rounded btn btn-outline-primary mt-4" style="width: 200px;" onclick="window.location.href='https://www.facebook.com/profile.php?id=100089054476251'"><img width="30" src="{% static 'imgs/fb.png' %}" class="mr-2"><span class="pr-2">{% trans "Message Us" %}</span></button>   
+        </div>
+    </section> <!-- end of about section -->
+
+ 
+    <!-- pricing section -->
+    <section class="section pt-0" id="pricing">
+        <div class="container text-center">
+            <h6 class="section-title mb-6">{% trans "My Pricing" %}</h6>
+            <!-- row -->
+            <div class="pricing-wrapper">
+                <div class="pricing-card">
+                    <div class="pricing-card-header p-2">
+                        <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/100/null/external-personal-data-protection-flatart-icons-outline-flatarticons.png"/>
+                    </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">{% trans "Personal website" %}</h6>
+                        <div class="pricing-card-list">
+                            <p>{% trans "Website like this where it's all about one person" %}</p>
+                        </div>
+                    </div>
+                    <div class="pricing-card-footer mb-0">
+                        <span>{% trans "DA" %}</span>
+                        <span>15000</span>
+                    </div>
+                    <div class="pricing-card-footer m-0">
+                        <span style="font-size: 3rem;">+</span>
+                    </div>
+                    <div class="pricing-card-footer mt-0">
+                        <span>{% trans "DA" %}</span>
+                        <span>{% trans "3000/Month" %}</span>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-header p-2">
+                        <img src="https://img.icons8.com/ios/100/null/groups.png"/>
+                    </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">{% trans "Company or institution website" %}</h6>
+                    </div>
+                    <div class="pricing-card-footer mb-0">
+                        <span>{% trans "DA" %}</span>
+                        <span>25000</span>
+                    </div>
+                    <div class="pricing-card-footer m-0">
+                        <span style="font-size: 3rem;">+</span>
+                    </div>
+                    <div class="pricing-card-footer mt-0">
+                        <span>{% trans "DA" %}</span>
+                        <span>{% trans "4000/Month" %}</span>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-header p-2">
+                        <img src="https://img.icons8.com/external-flat-icons-inmotus-design/67/null/external-customize-player-flat-icons-inmotus-design.png"/>
+                    </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">{% trans "Platforms and customized websites" %}</h6>
+                    </div>
+                    <div class="pricing-card-footer mb-0">
+                        <span>{% trans "DA" %}</span>
+                        <span>{% trans "8000/ Day of work" %}</span>
+                    </div>
+                </div>
+            </div><!-- end of pricing wrapper -->
+        </div> <!-- end of container -->
+        <div class="container mt-4 text-center">
+            <button class="btn-rounded btn btn-outline-primary mt-4" style="width: 200px;" onclick="window.location.href='tel:0541388946'"><img width="30" src="{% static 'imgs/call.png' %}" class="mr-2"><span class="pr-2">{% trans "Call Us" %}</span></button>
+            <button class="btn-rounded btn btn-outline-primary mt-4" style="width: 200px;" onclick="window.location.href='https://www.facebook.com/profile.php?id=100089054476251'"><img width="30" src="{% static 'imgs/fb.png' %}" class="mr-2"><span class="pr-2">{% trans "Message Us" %}</span></button>   
+        </div>
+    </section><!-- end of pricing section -->
+
+  
+
+    <!-- contact section -->
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <h6 class="section-title mb-5">{% trans "Contact Us" %}</h6>
+            <!-- contact form -->
+            <form class="contact-form col-md-10 col-lg-8 m-auto" id="id_form">
+                {% csrf_token %}
+                <div class="form-row">
+                    <div class="alert alert-success col-12" style=" display: none;" id="message_res" role="alert">
+                        <h4 class="alert-heading mb-0" id="res_text" ></h4>
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <input type="text" id="email" required maxlength="100"  class="form-control" placeholder="{% trans "Enter Email or Phone number" %}"requried>                 
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <textarea name="comment" id="text" required rows="6" class="form-control" placeholder="{% trans "Write Something" %}"></textarea>
+                    </div>
+                    <div class="form-group col-sm-12 mt-3">
+                        <button type="submit" style="width: 200px;" class="btn btn-primary rounded" id="submit">{% trans "Send Message" %}</button>                
+                    </div>
+                </div>  
+            </form><!-- end of contact form -->
+        </div><!-- end of container -->
+    </section><!-- end of contact section -->
+
+    <!-- footer -->
+  
+	
+	<!-- core  -->
+    <script src="{% static 'vendors/jquery/jquery-3.4.1.js' %}"></script>
+    <script src="{% static 'vendors/bootstrap/bootstrap.bundle.js' %}"></script>
+
+    <!-- bootstrap 3 affix -->
+	<script src="{% static 'vendors/bootstrap/bootstrap.affix.js' %}"></script>
+
+    <!-- Meyawo js -->
+    <script src="{% static 'js/meyawo.js' %}"></script>
+    <script>
+        var form = document.getElementById('id_form')
+        var button = document.getElementById('submit')
+        form.addEventListener('submit', function(e){
+            e.preventDefault();
+            button.innerHTML=
+            ` 
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; background: transparent; display: block; shape-rendering: auto; animation-play-state: running; animation-delay: 0s;" height="24px" width="auto" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid"><circle cx="50" cy="50" fill="none" stroke="#fff" stroke-width="10" r="35" stroke-dasharray="164.93361431346415 56.97787143782138" style="animation-play-state: running; animation-delay: 0s;"><animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1s" values="0 50 50;360 50 50" keyTimes="0;1" style="animation-play-state: running; animation-delay: 0s;"></animateTransform></circle><!-- [ldio] generated by https://loading.io/ --></svg>
+            ` 
+            $.ajax({
+                type: 'POST',
+				url: "{% url 'home' %}",
+                data:{
+                    csrfmiddlewaretoken : $('input[name=csrfmiddlewaretoken]').val(),
+                    email : $('#email').val(),
+                    text : $('#text').val(),
+                  },
+				success: function(){
+                    button.innerHTML= '{% trans "Send Message" %}'
+                    message_res.className = "alert alert-success col-12"
+                    res_text.innerHTML = '{% trans "Message was sent successfully" %}'
+                    message_res.style.display="block"
+
+                },
+                error: function(){
+                    button.innerHTML= '{% trans "Send Message" %}',
+                    message_res.className = "alert alert-warning col-12"
+                    res_text.innerHTML = '{% trans "Message was not sent" %}'
+                    message_res.style.display="block"
+                }
+            })
+        })
+    </script>
+
+</body>
+</html>
