@@ -38,8 +38,9 @@ msgid ""
 "years experience in web developement, durring that period i build over 20 "
 "personal websites and 4 platforms."
 msgstr ""
-"أنا حفيط عمروش مهندس في الأليات و عمري 25 سنة، لدي خبرة 7 سنوات في مجال مجال تصميم المواقع "
-"في هذه الفترة صممت 20 موقعا شخصا و 4 منصات ."
+"أنا حفيط عمروش مهندس في الأليات و عمري 25 سنة، لدي خبرة 7 سنوات في مجال تصميم المواقع "
+
+" حيث في هذه تلك صممت 20 موقعا شخصا و 4 منصات."
 
 
 #: .\templates\home.html:49 .\templates\home.html:118
