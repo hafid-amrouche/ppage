@@ -204,7 +204,8 @@
                     message_res.className = "alert alert-success col-12"
                     res_text.innerHTML = '{% trans "Message was sent successfully" %}'
                     message_res.style.display="block"
-
+                    text.innerHTML=""
+                    email.value=""
                 },
                 error: function(){
                     button.innerHTML= '{% trans "Send Message" %}',
