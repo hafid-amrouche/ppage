@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-03 18:57+0100\n"
+"POT-Creation-Date: 2023-01-05 10:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,95 +24,93 @@ msgstr ""
 msgid "Welcome"
 msgstr "مرحبا"
 
-#: .\templates\home.html:37
-msgid "Who Am I ?"
-msgstr "من أنا"
-
-#: .\templates\home.html:38
+#: .\templates\home.html:50
 msgid "About Me"
 msgstr "معلومات عني"
 
-#: .\templates\home.html:40
+#: .\templates\home.html:52
 msgid ""
 "i am Hafid Amrouche a 25 years old automation engineer with more than 7 "
 "years experience in web developement, durring that period i build over 20 "
 "personal websites and 4 platforms."
 msgstr ""
-"أنا حفيط عمروش مهندس في الأليات و عمري 25 سنة، لدي خبرة 7 سنوات في مجال تصميم المواقع "
+"أنا حفيط عمروش مهندس في الأليات و عمري 25 سنة، لدي خبرة 7 سنوات في مجال "
+"تصميم المواقع  حيث في هذه تلك صممت 20 موقعا شخصا و 4 منصات."
 
-" حيث في هذه تلك صممت 20 موقعا شخصا و 4 منصات."
-
-
-#: .\templates\home.html:49 .\templates\home.html:118
+#: .\templates\home.html:61 .\templates\home.html:141
 msgid "Call Us"
 msgstr "اتصل بنا"
 
-#: .\templates\home.html:50 .\templates\home.html:119
+#: .\templates\home.html:62 .\templates\home.html:142
 msgid "Message Us"
 msgstr "راسلنا"
 
-#: .\templates\home.html:58
-msgid "How Much I Charge ?"
-msgstr "كم أتقاضى؟"
-
-#: .\templates\home.html:59
+#: .\templates\home.html:70
 msgid "My Pricing"
 msgstr "الأسعار"
 
-#: .\templates\home.html:67
+#: .\templates\home.html:78
 msgid "Personal website"
 msgstr "موقع شخصي"
 
-#: .\templates\home.html:69
+#: .\templates\home.html:80
 msgid "Website like this where it's all about one person"
 msgstr "مواقع مثل هذا الموقع"
 
-#: .\templates\home.html:73 .\templates\home.html:80 .\templates\home.html:92
-#: .\templates\home.html:99 .\templates\home.html:111
+#: .\templates\home.html:84 .\templates\home.html:88 .\templates\home.html:95
+#: .\templates\home.html:107 .\templates\home.html:111
+#: .\templates\home.html:118 .\templates\home.html:130
+#: .\templates\home.html:134
 msgid "DA"
 msgstr "دج"
 
-#: .\templates\home.html:81
+#: .\templates\home.html:96
 msgid "3000/Month"
 msgstr "3000/شهر"
 
-#: .\templates\home.html:89
+#: .\templates\home.html:104
 msgid "Company or institution website"
 msgstr "موقع لشركة أو مؤسسة"
 
-#: .\templates\home.html:100
+#: .\templates\home.html:119
 msgid "4000/Month"
 msgstr "4000/شهر"
 
-#: .\templates\home.html:108
+#: .\templates\home.html:127
 msgid "Platforms and customized websites"
 msgstr " منصة أو موقع معدل"
 
-#: .\templates\home.html:112
-msgid "8000/ Day of work"
-msgstr "8000 على كل يوم عمل"
+#: .\templates\home.html:131 .\templates\home.html:135
+msgid "/Day of work"
+msgstr "/يوم عمل"
 
-#: .\templates\home.html:128
+#: .\templates\home.html:151
 msgid "Contact Us"
 msgstr "تواصل معنا"
 
-#: .\templates\home.html:137
+#: .\templates\home.html:160
 msgid "Enter Email or Phone number"
 msgstr "أدخل الايمايل أو رقم الهاتف"
 
-#: .\templates\home.html:140
+#: .\templates\home.html:163
 msgid "Write Something"
 msgstr "أكتب هنا"
 
-#: .\templates\home.html:143 .\templates\home.html:180
-#: .\templates\home.html:187
+#: .\templates\home.html:166 .\templates\home.html:203
+#: .\templates\home.html:210
 msgid "Send Message"
 msgstr "أرسل"
 
-#: .\templates\home.html:182
+#: .\templates\home.html:205
 msgid "Message was sent successfully"
 msgstr "تم الارسال بنجاح"
 
-#: .\templates\home.html:189
+#: .\templates\home.html:212
 msgid "Message was not sent"
 msgstr "لم يتم الارسال"
+
+#~ msgid "Who Am I ?"
+#~ msgstr "من أنا"
+
+#~ msgid "How Much I Charge ?"
+#~ msgstr "كم أتقاضى؟"
